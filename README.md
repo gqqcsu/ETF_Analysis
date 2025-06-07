@@ -278,7 +278,7 @@ PORTFOLIO_CATEGORIES = {
 
 我们欢迎贡献！请遵循以下步骤：
 
-1. Fork项目仓库
+1. Fork项目仓库   
 2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
 3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
@@ -291,8 +291,8 @@ PORTFOLIO_CATEGORIES = {
 ## 技术支持
 
 如有任何问题或建议，请联系：
-- 邮箱：support@etfreport.com
-- GitHub Issues: [https://github.com/yourusername/etf-daily-report/issues]()
+- 邮箱：75840173@qq.com
+- GitHub Issues: [https://github.com/gqqcsu/etf-daily-report/issues]()
 
 ```
 投资有风险，入市需谨慎。本系统生成的分析报告仅供参考，不构成任何投资建议。
