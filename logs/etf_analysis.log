@@ -1,0 +1,798 @@
+2025-05-29 13:20:01,356 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-05-29 13:20:01,399 - etf_analysis - INFO - 成功加载数据，共 20 条记录
+2025-05-29 13:24:21,632 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 13:24:21,649 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-05-29 13:24:21,678 - etf_analysis - INFO - 成功加载数据，共 20 条记录
+2025-05-29 13:24:21,679 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 13:24:21,699 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 13:41:01,917 - etf_analysis - ERROR - 报告生成失败: module 'signal' has no attribute 'SIGALRM'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 21, in main
+    signal.signal(signal.SIGALRM, timeout_handler)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+
+2025-05-29 13:43:44,541 - etf_analysis - ERROR - 报告生成失败: module 'signal' has no attribute 'SIGALRM'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 21, in main
+    signal.signal(signal.SIGALRM, timeout_handler)
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'signal' has no attribute 'SIGALRM'. Did you mean: 'SIGABRT'?
+
+2025-05-29 13:52:38,674 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 13:52:40,827 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 13:52:40,844 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-05-29 13:52:40,874 - etf_analysis - INFO - 成功加载数据，共 20 条记录
+2025-05-29 13:52:40,874 - etf_analysis - INFO - 成功加载 20 条ETF数据
+2025-05-29 13:52:40,874 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 13:52:40,894 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 13:52:40,894 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 13:52:40,894 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 13:52:40,895 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 13:52:41,372 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 13:52:41,674 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 13:52:41,967 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 13:52:42,290 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-05-29 13:52:42,290 - etf_analysis - INFO - 图表生成完成，耗时: 1.40秒
+2025-05-29 13:52:42,290 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 13:52:42,321 - etf_analysis - ERROR - 报告生成失败: dictionary changed size during iteration
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 58, in main_process
+    portfolio_advice = generate_portfolio_advice(df)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\portfolio_builder.py", line 207, in generate_portfolio_advice
+    for key in portfolio_advice:
+               ^^^^^^^^^^^^^^^^
+RuntimeError: dictionary changed size during iteration
+
+2025-05-29 13:59:40,700 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 13:59:42,823 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 13:59:42,841 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-05-29 13:59:42,867 - etf_analysis - INFO - 成功加载数据，共 20 条记录
+2025-05-29 13:59:42,867 - etf_analysis - INFO - 成功加载 20 条ETF数据
+2025-05-29 13:59:42,867 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 13:59:42,887 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 13:59:42,887 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 13:59:42,887 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 13:59:42,887 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 13:59:43,361 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 13:59:43,662 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 13:59:43,959 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 13:59:44,275 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-05-29 13:59:44,275 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-05-29 13:59:44,276 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 13:59:44,305 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 13:59:44,305 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.03秒
+2025-05-29 13:59:44,306 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 13:59:44,362 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 13:59:44,363 - etf_analysis - INFO - 报告生成完成，耗时: 0.06秒
+2025-05-29 13:59:44,363 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 14:07:16,875 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 14:07:19,022 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 14:07:19,039 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-05-29 14:07:19,065 - etf_analysis - INFO - 成功加载数据，共 20 条记录
+2025-05-29 14:07:19,066 - etf_analysis - INFO - 成功加载 20 条ETF数据
+2025-05-29 14:07:19,066 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 14:07:19,086 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 14:07:19,087 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 14:07:19,087 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 14:07:19,087 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 14:07:19,546 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 14:07:19,851 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 14:07:20,149 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 14:07:20,308 - etf_analysis - ERROR - 创建散点图失败: 'seaborn-whitegrid' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 14:07:20,308 - etf_analysis - INFO - 图表生成完成，耗时: 1.22秒
+2025-05-29 14:07:20,309 - etf_analysis - INFO - 图表生成完成，耗时: 1.22秒
+2025-05-29 14:07:20,309 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 14:07:20,339 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 14:07:20,339 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.03秒
+2025-05-29 14:07:20,339 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 14:07:20,402 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 14:07:20,403 - etf_analysis - INFO - 报告生成完成，耗时: 0.06秒
+2025-05-29 14:07:20,403 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 14:13:24,663 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 14:13:27,132 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 14:13:27,132 - etf_analysis - INFO - 正在加载数据文件: data/ETF行情数据.csv (格式: .csv)
+2025-05-29 14:13:27,133 - etf_analysis - ERROR - 文件编码检测失败: [Errno 2] No such file or directory: 'data/ETF行情数据.csv'
+2025-05-29 14:13:27,133 - etf_analysis - INFO - 使用编码: utf-8 加载CSV文件
+2025-05-29 14:13:27,134 - etf_analysis - ERROR - 数据加载失败: [Errno 2] No such file or directory: 'data/ETF行情数据.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 32, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 872, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF行情数据.csv'
+2025-05-29 14:13:27,141 - etf_analysis - ERROR - 报告生成失败: [Errno 2] No such file or directory: 'data/ETF行情数据.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 36, in main_process
+    df = load_etf_data(data_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 32, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 872, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF行情数据.csv'
+
+2025-05-29 14:21:30,487 - etf_analysis - INFO - 找到数据文件: data/ETF行情数据.xlsx
+2025-05-29 14:21:30,488 - etf_analysis - INFO - 使用数据文件: data/ETF行情数据.xlsx
+2025-05-29 14:21:30,488 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 14:21:32,505 - etf_analysis - INFO - 正在加载ETF数据: data/ETF行情数据.xlsx
+2025-05-29 14:21:32,505 - etf_analysis - INFO - 正在加载数据文件: data/ETF行情数据.xlsx (格式: .xlsx)
+2025-05-29 14:21:32,505 - etf_analysis - INFO - 加载Excel文件
+2025-05-29 14:21:32,532 - etf_analysis - ERROR - 数据加载失败: <class 'openpyxl.styles.named_styles._NamedCellStyle'>.name should be <class 'str'> but value is <class 'NoneType'>
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 39, in load_etf_data
+    df = pd.read_excel(file_path, engine='openpyxl')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 504, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 1580, in __init__
+    self._reader = self._engines[engine](
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_openpyxl.py", line 553, in __init__
+    super().__init__(
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 582, in __init__
+    self.book = self.load_workbook(self.handles.handle, engine_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_openpyxl.py", line 570, in load_workbook
+    return load_workbook(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 301, in read
+    apply_stylesheet(self.archive, self.wb)
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\stylesheet.py", line 209, in apply_stylesheet
+    stylesheet = Stylesheet.from_tree(node)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\stylesheet.py", line 105, in from_tree
+    return super().from_tree(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 103, in from_tree
+    return cls(**attrib)
+           ^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\named_styles.py", line 222, in __init__
+    self.name = name
+    ^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\base.py", line 46, in __set__
+    raise TypeError(msg)
+TypeError: <class 'openpyxl.styles.named_styles._NamedCellStyle'>.name should be <class 'str'> but value is <class 'NoneType'>
+2025-05-29 14:21:32,541 - etf_analysis - ERROR - 报告生成失败: <class 'openpyxl.styles.named_styles._NamedCellStyle'>.name should be <class 'str'> but value is <class 'NoneType'>
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 63, in main_process
+    df = load_etf_data(data_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 39, in load_etf_data
+    df = pd.read_excel(file_path, engine='openpyxl')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 504, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 1580, in __init__
+    self._reader = self._engines[engine](
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_openpyxl.py", line 553, in __init__
+    super().__init__(
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_base.py", line 582, in __init__
+    self.book = self.load_workbook(self.handles.handle, engine_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\excel\_openpyxl.py", line 570, in load_workbook
+    return load_workbook(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\reader\excel.py", line 301, in read
+    apply_stylesheet(self.archive, self.wb)
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\stylesheet.py", line 209, in apply_stylesheet
+    stylesheet = Stylesheet.from_tree(node)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\stylesheet.py", line 105, in from_tree
+    return super().from_tree(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 87, in from_tree
+    obj = desc.expected_type.from_tree(el)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\serialisable.py", line 103, in from_tree
+    return cls(**attrib)
+           ^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\styles\named_styles.py", line 222, in __init__
+    self.name = name
+    ^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\openpyxl\descriptors\base.py", line 46, in __set__
+    raise TypeError(msg)
+TypeError: <class 'openpyxl.styles.named_styles._NamedCellStyle'>.name should be <class 'str'> but value is <class 'NoneType'>
+
+2025-05-29 14:29:38,277 - etf_analysis - INFO - 找到数据文件: data/ETF行情数据.xlsx
+2025-05-29 14:29:38,277 - etf_analysis - INFO - 使用数据文件: data/ETF行情数据.xlsx
+2025-05-29 14:29:38,277 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 14:29:40,392 - etf_analysis - INFO - 正在加载ETF数据: data/ETF行情数据.xlsx
+2025-05-29 14:29:40,393 - etf_analysis - INFO - 正在加载数据文件: data/ETF行情数据.xlsx (格式: .xlsx)
+2025-05-29 14:29:40,393 - etf_analysis - INFO - 加载Excel文件
+2025-05-29 14:29:40,393 - etf_analysis - INFO - 尝试方法1: 使用openpyxl并忽略样式
+2025-05-29 14:29:40,421 - etf_analysis - WARNING - 方法1失败: <class 'openpyxl.styles.named_styles._NamedCellStyle'>.name should be <class 'str'> but value is <class 'NoneType'>
+2025-05-29 14:29:40,422 - etf_analysis - INFO - 尝试方法2: 使用xlrd引擎
+2025-05-29 14:29:40,434 - etf_analysis - WARNING - 方法2失败: Excel xlsx file; not supported
+2025-05-29 14:29:40,434 - etf_analysis - INFO - xlrd不支持.xlsx文件，尝试其他方法
+2025-05-29 14:29:40,434 - etf_analysis - INFO - 尝试方法3: 使用odf引擎
+2025-05-29 14:29:40,496 - etf_analysis - WARNING - 方法3失败: "There is no item named 'META-INF/manifest.xml' in the archive"
+2025-05-29 14:29:40,496 - etf_analysis - INFO - 尝试方法4: 使用pyxlsb引擎
+2025-05-29 14:29:40,504 - etf_analysis - WARNING - 方法4失败: "There is no item named 'xl/_rels/workbook.bin.rels' in the archive"
+2025-05-29 14:29:40,504 - etf_analysis - INFO - 尝试方法5: 使用calamine引擎
+2025-05-29 14:29:40,507 - etf_analysis - WARNING - 方法5失败: module 'python_calamine' has no attribute 'read_calamine'
+2025-05-29 14:29:40,508 - etf_analysis - ERROR - 安全读取Excel失败: 所有Excel读取方法均失败
+2025-05-29 14:29:40,508 - etf_analysis - ERROR - 数据加载失败: 所有Excel读取方法均失败
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 109, in load_etf_data
+    df = safe_read_excel(file_path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 84, in safe_read_excel
+    raise Exception("所有Excel读取方法均失败")
+Exception: 所有Excel读取方法均失败
+2025-05-29 14:29:40,510 - etf_analysis - ERROR - 加载的数据为空，请检查数据文件
+2025-05-29 16:08:43,662 - etf_analysis - INFO - 找到数据文件: data/ETF行情数据.csv
+2025-05-29 16:08:43,663 - etf_analysis - INFO - 使用数据文件: data/ETF行情数据.csv
+2025-05-29 16:08:43,663 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 16:08:45,679 - etf_analysis - INFO - 正在加载ETF数据: data/ETF行情数据.csv
+2025-05-29 16:08:45,679 - etf_analysis - INFO - 正在加载数据文件: data/ETF行情数据.csv (格式: .csv)
+2025-05-29 16:08:45,680 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载CSV文件
+2025-05-29 16:08:45,690 - etf_analysis - INFO - 原始数据行数: 1176
+2025-05-29 16:08:45,702 - etf_analysis - INFO - 原始数据列名: ['代码', '类型', '名称', '现价', '涨跌', '涨跌幅', '溢折率', '成交额', '换手率', '5日涨跌幅', '年初至今', '基金份额', '估算规模', '规模变化', '管理公司', '年初至今份额变动', '年初至今份额变动率', 'IOPV', '跟踪指数代码', '跟踪指数名称', '市盈率', '市净率', '上市地']
+2025-05-29 16:08:45,703 - etf_analysis - INFO - 标准化后列名: ['代码', '类型', '名称', '现价', '涨跌', '涨跌幅', '溢折率', '成交额', '换手率', '5日涨跌幅', '年初至今', '基金份额', '估算规模', '规模变化', '管理公司', '年初至今份额变动', '年初至今份额变动率', 'IOPV', '跟踪指数代码', '跟踪指数名称', '市盈率', '市净率', '上市地']
+2025-05-29 16:08:45,705 - etf_analysis - INFO - 清理后数据行数: 1175
+2025-05-29 16:08:45,715 - etf_analysis - INFO - 成功加载数据，共 1175 条记录
+2025-05-29 16:08:45,716 - etf_analysis - ERROR - 数据加载失败: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+Traceback (most recent call last):
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\compat\_optional.py", line 132, in import_optional_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tabulate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 208, in load_etf_data
+    logger.info(f"前2行数据:\n{df.head(2).to_markdown()}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\frame.py", line 2836, in to_markdown
+    tabulate = import_optional_dependency("tabulate")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\compat\_optional.py", line 135, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-05-29 16:08:45,723 - etf_analysis - ERROR - 加载的数据为空，请检查数据文件
+2025-05-29 16:21:51,737 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 16:21:53,540 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 16:21:53,541 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 16:21:53,571 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 16:21:53,571 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 16:21:53,572 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 16:21:53,590 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 16:21:53,591 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 16:21:53,591 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 16:21:53,591 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 16:21:54,069 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 16:21:54,337 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 16:21:54,586 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 16:21:54,850 - etf_analysis - INFO - 图表生成完成，耗时: 1.26秒
+2025-05-29 16:21:54,850 - etf_analysis - INFO - 图表生成完成，耗时: 1.26秒
+2025-05-29 16:21:54,851 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 16:21:54,897 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 16:21:54,898 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 16:21:54,898 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 16:21:54,907 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 16:21:54,907 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 16:21:54,907 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 16:37:27,855 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 16:37:29,695 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 16:37:29,695 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 16:37:29,725 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 16:37:29,725 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 16:37:29,725 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 16:37:29,746 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 16:37:29,746 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 16:37:29,746 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 16:37:29,746 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 16:37:30,863 - etf_analysis - ERROR - 图表转换失败: In RendererAgg: Out of memory
+2025-05-29 16:37:30,886 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 16:37:31,219 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 16:37:31,536 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 16:37:31,704 - etf_analysis - ERROR - 创建散点图失败: 'seaborn-whitegrid' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 16:37:31,705 - etf_analysis - INFO - 图表生成完成，耗时: 1.96秒
+2025-05-29 16:37:31,705 - etf_analysis - INFO - 图表生成完成，耗时: 1.96秒
+2025-05-29 16:37:31,705 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 16:37:31,758 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 16:37:31,758 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 16:37:31,759 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 16:37:31,768 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 16:37:31,768 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 16:37:31,768 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 16:39:14,621 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 16:39:16,481 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 16:39:16,481 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 16:39:16,510 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 16:39:16,510 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 16:39:16,510 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 16:39:16,532 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 16:39:16,532 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 16:39:16,532 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 16:39:16,532 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 16:39:17,003 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 16:39:17,322 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 16:39:17,613 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 16:39:17,739 - etf_analysis - ERROR - 创建散点图失败: not enough free memory for image buffer
+2025-05-29 16:39:17,740 - etf_analysis - INFO - 图表生成完成，耗时: 1.21秒
+2025-05-29 16:39:17,740 - etf_analysis - INFO - 图表生成完成，耗时: 1.21秒
+2025-05-29 16:39:17,740 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 16:39:17,796 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 16:39:17,796 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.06秒
+2025-05-29 16:39:17,797 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 16:39:17,806 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 16:39:17,806 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 16:39:17,806 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 16:43:07,238 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 16:43:09,083 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 16:43:09,084 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 16:43:09,113 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 16:43:09,113 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 16:43:09,113 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 16:43:09,132 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 16:43:09,132 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 16:43:09,133 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 16:43:09,133 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 16:43:09,520 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 16:43:09,775 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 16:43:10,035 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 16:43:10,167 - etf_analysis - ERROR - 创建散点图失败: 'seaborn-whitegrid' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 16:43:10,168 - etf_analysis - INFO - 图表生成完成，耗时: 1.04秒
+2025-05-29 16:43:10,168 - etf_analysis - INFO - 图表生成完成，耗时: 1.04秒
+2025-05-29 16:43:10,168 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 16:43:10,216 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 16:43:10,216 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 16:43:10,217 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 16:43:10,231 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 16:43:10,231 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 16:43:10,231 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:05:58,210 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:06:00,045 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:06:00,046 - etf_analysis - ERROR - 文件编码检测失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+2025-05-29 19:06:00,046 - etf_analysis - INFO - 使用编码: gbk 加载文件: data/ETF琛屾儏鏁版嵁.csv
+2025-05-29 19:06:00,060 - etf_analysis - ERROR - 数据加载失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 24, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+2025-05-29 19:06:00,067 - etf_analysis - ERROR - 报告生成失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 36, in main_process
+    df = load_etf_data(data_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 24, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+
+2025-05-29 19:25:53,111 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:25:54,938 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:25:54,938 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:25:54,975 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:25:54,976 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:25:54,976 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:25:54,998 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:25:54,998 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:25:54,998 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:25:54,998 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:25:55,472 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:25:55,736 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:25:55,985 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:25:56,113 - etf_analysis - ERROR - 创建散点图失败: 'seaborn-whitegrid' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 19:25:56,113 - etf_analysis - INFO - 图表生成完成，耗时: 1.12秒
+2025-05-29 19:25:56,113 - etf_analysis - INFO - 图表生成完成，耗时: 1.12秒
+2025-05-29 19:25:56,114 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:25:56,159 - etf_analysis - ERROR - 计算投资组合指标时出错: operands could not be broadcast together with shapes (6,) (5,) 
+2025-05-29 19:25:56,160 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:25:56,160 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:25:56,168 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:25:56,168 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:25:56,168 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:30:14,724 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:30:16,495 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:30:16,496 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:30:16,524 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:30:16,524 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:30:16,524 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:30:16,542 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:30:16,542 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:30:16,542 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:30:16,543 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:30:16,922 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:30:17,212 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:30:17,461 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:30:17,586 - etf_analysis - ERROR - 创建散点图失败: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 19:30:17,599 - etf_analysis - INFO - 图表生成完成，耗时: 1.06秒
+2025-05-29 19:30:17,600 - etf_analysis - INFO - 图表生成完成，耗时: 1.06秒
+2025-05-29 19:30:17,600 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:30:17,644 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:30:17,645 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:30:17,645 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:30:17,645 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:30:17,646 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:30:17,646 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:30:17,655 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:30:17,655 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:30:17,655 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:31:42,359 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:31:44,156 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:31:44,157 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:31:44,187 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:31:44,187 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:31:44,187 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:31:44,206 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:31:44,206 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:31:44,206 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:31:44,206 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:31:44,643 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:31:44,946 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:31:45,192 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:31:45,323 - etf_analysis - ERROR - 创建散点图失败: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-05-29 19:31:45,323 - etf_analysis - INFO - 图表生成完成，耗时: 1.12秒
+2025-05-29 19:31:45,323 - etf_analysis - INFO - 图表生成完成，耗时: 1.12秒
+2025-05-29 19:31:45,324 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:31:45,372 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:31:45,373 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:31:45,373 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:31:45,373 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:31:45,374 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:31:45,374 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:31:45,383 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:31:45,383 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:31:45,383 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:35:07,766 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:35:09,555 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:35:09,556 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:35:09,584 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:35:09,584 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:35:09,585 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:35:09,603 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:35:09,603 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:35:09,603 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:35:09,603 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:35:09,991 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:35:10,251 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:35:10,499 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:35:10,915 - etf_analysis - INFO - 图表生成完成，耗时: 1.31秒
+2025-05-29 19:35:10,915 - etf_analysis - INFO - 图表生成完成，耗时: 1.31秒
+2025-05-29 19:35:10,915 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:35:10,960 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:35:10,960 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:35:10,960 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:35:10,961 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:35:10,961 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:35:10,962 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:35:10,975 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:35:10,975 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:35:10,975 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:36:36,365 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:36:38,131 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:36:38,131 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:36:38,159 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:36:38,160 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:36:38,160 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:36:38,177 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:36:38,178 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:36:38,178 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:36:38,178 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:36:38,554 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:36:38,827 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:36:39,069 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:36:39,221 - etf_analysis - ERROR - 创建散点图失败: In RendererAgg: Out of memory
+2025-05-29 19:36:39,222 - etf_analysis - INFO - 图表生成完成，耗时: 1.04秒
+2025-05-29 19:36:39,222 - etf_analysis - INFO - 图表生成完成，耗时: 1.04秒
+2025-05-29 19:36:39,222 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:36:39,268 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:36:39,268 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:36:39,269 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:36:39,269 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:36:39,269 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:36:39,270 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:36:39,278 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:36:39,278 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:36:39,278 - etf_analysis - INFO - 报告生成完成！
+2025-05-29 19:37:20,221 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-29 19:37:21,979 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-29 19:37:21,979 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-29 19:37:22,007 - etf_analysis - INFO - 成功加载数据，共 1174 条记录
+2025-05-29 19:37:22,007 - etf_analysis - INFO - 成功加载 1174 条ETF数据
+2025-05-29 19:37:22,007 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-29 19:37:22,025 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-29 19:37:22,026 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-29 19:37:22,026 - etf_analysis - INFO - 开始生成图表...
+2025-05-29 19:37:22,026 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-29 19:37:22,399 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-29 19:37:22,666 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-29 19:37:22,913 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-29 19:37:23,300 - etf_analysis - INFO - 图表生成完成，耗时: 1.27秒
+2025-05-29 19:37:23,300 - etf_analysis - INFO - 图表生成完成，耗时: 1.27秒
+2025-05-29 19:37:23,300 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-29 19:37:23,346 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:37:23,347 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:37:23,347 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:37:23,347 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-29 19:37:23,348 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-29 19:37:23,348 - etf_analysis - INFO - 正在生成报告...
+2025-05-29 19:37:23,358 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250529.md
+2025-05-29 19:37:23,358 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-29 19:37:23,359 - etf_analysis - INFO - 报告生成完成！
+2025-05-30 18:51:59,375 - etf_analysis - INFO - 使用多进程超时机制
+2025-05-30 18:52:01,205 - etf_analysis - INFO - 正在加载ETF数据...
+2025-05-30 18:52:01,206 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-05-30 18:52:01,250 - etf_analysis - INFO - 成功加载数据，共 1178 条记录
+2025-05-30 18:52:01,250 - etf_analysis - INFO - 成功加载 1178 条ETF数据
+2025-05-30 18:52:01,251 - etf_analysis - INFO - 正在分析ETF数据...
+2025-05-30 18:52:01,274 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-05-30 18:52:01,274 - etf_analysis - INFO - 正在生成可视化图表...
+2025-05-30 18:52:01,274 - etf_analysis - INFO - 开始生成图表...
+2025-05-30 18:52:01,274 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-05-30 18:52:01,775 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-05-30 18:52:02,054 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-05-30 18:52:02,296 - etf_analysis - INFO - 生成综合评分散点图...
+2025-05-30 18:52:02,692 - etf_analysis - INFO - 图表生成完成，耗时: 1.42秒
+2025-05-30 18:52:02,692 - etf_analysis - INFO - 图表生成完成，耗时: 1.42秒
+2025-05-30 18:52:02,692 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-05-30 18:52:02,737 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-30 18:52:02,737 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-30 18:52:02,738 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-30 18:52:02,738 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-05-30 18:52:02,738 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-05-30 18:52:02,738 - etf_analysis - INFO - 正在生成报告...
+2025-05-30 18:52:02,751 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250530.md
+2025-05-30 18:52:02,751 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-05-30 18:52:02,751 - etf_analysis - INFO - 报告生成完成！
+2025-06-03 16:45:33,957 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-03 16:45:35,693 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-03 16:45:35,693 - etf_analysis - ERROR - 文件编码检测失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+2025-06-03 16:45:35,694 - etf_analysis - INFO - 使用编码: gbk 加载文件: data/ETF琛屾儏鏁版嵁.csv
+2025-06-03 16:45:35,698 - etf_analysis - ERROR - 数据加载失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 24, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+2025-06-03 16:45:35,705 - etf_analysis - ERROR - 报告生成失败: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+Traceback (most recent call last):
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\main.py", line 36, in main_process
+    df = load_etf_data(data_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\文件备存\2025年5月23日 云电脑桌面文件\code\ETF_Analysis\modules\data_loader.py", line 24, in load_etf_data
+    df = pd.read_csv(file_path, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\parsers\readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\guo19\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\io\common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/ETF琛屾儏鏁版嵁.csv'
+
+2025-06-03 16:46:50,668 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-03 16:46:57,204 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-03 16:46:57,205 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-06-03 16:46:57,247 - etf_analysis - INFO - 成功加载数据，共 1179 条记录
+2025-06-03 16:46:57,248 - etf_analysis - INFO - 成功加载 1179 条ETF数据
+2025-06-03 16:46:57,248 - etf_analysis - INFO - 正在分析ETF数据...
+2025-06-03 16:46:57,270 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-06-03 16:46:57,270 - etf_analysis - INFO - 正在生成可视化图表...
+2025-06-03 16:46:57,270 - etf_analysis - INFO - 开始生成图表...
+2025-06-03 16:46:57,271 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-06-03 16:46:57,716 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-06-03 16:46:57,972 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-06-03 16:46:58,214 - etf_analysis - INFO - 生成综合评分散点图...
+2025-06-03 16:46:58,660 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-06-03 16:46:58,661 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-06-03 16:46:58,661 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-06-03 16:46:58,707 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:46:58,707 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:46:58,708 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:46:58,708 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:46:58,708 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-06-03 16:46:58,708 - etf_analysis - INFO - 正在生成报告...
+2025-06-03 16:46:58,722 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250603.md
+2025-06-03 16:46:58,723 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-06-03 16:46:58,723 - etf_analysis - INFO - 报告生成完成！
+2025-06-03 16:47:16,156 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-03 16:47:17,855 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-03 16:47:17,856 - etf_analysis - INFO - 使用编码: UTF-8-SIG 加载文件: data/ETF行情数据.csv
+2025-06-03 16:47:17,882 - etf_analysis - INFO - 成功加载数据，共 1179 条记录
+2025-06-03 16:47:17,882 - etf_analysis - INFO - 成功加载 1179 条ETF数据
+2025-06-03 16:47:17,883 - etf_analysis - INFO - 正在分析ETF数据...
+2025-06-03 16:47:17,900 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-06-03 16:47:17,900 - etf_analysis - INFO - 正在生成可视化图表...
+2025-06-03 16:47:17,900 - etf_analysis - INFO - 开始生成图表...
+2025-06-03 16:47:17,901 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-06-03 16:47:18,298 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-06-03 16:47:18,558 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-06-03 16:47:18,801 - etf_analysis - INFO - 生成综合评分散点图...
+2025-06-03 16:47:19,168 - etf_analysis - INFO - 图表生成完成，耗时: 1.27秒
+2025-06-03 16:47:19,169 - etf_analysis - INFO - 图表生成完成，耗时: 1.27秒
+2025-06-03 16:47:19,169 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-06-03 16:47:19,214 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:47:19,214 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:47:19,214 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:47:19,214 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-03 16:47:19,215 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-06-03 16:47:19,215 - etf_analysis - INFO - 正在生成报告...
+2025-06-03 16:47:19,229 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250603.md
+2025-06-03 16:47:19,229 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-06-03 16:47:19,230 - etf_analysis - INFO - 报告生成完成！
+2025-06-04 19:42:25,956 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-04 19:42:27,975 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-04 19:42:28,132 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-06-04 19:42:28,187 - etf_analysis - INFO - 成功加载数据，共 1180 条记录
+2025-06-04 19:42:28,187 - etf_analysis - INFO - 成功加载 1180 条ETF数据
+2025-06-04 19:42:28,188 - etf_analysis - INFO - 正在分析ETF数据...
+2025-06-04 19:42:28,212 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-06-04 19:42:28,212 - etf_analysis - INFO - 正在生成可视化图表...
+2025-06-04 19:42:28,212 - etf_analysis - INFO - 开始生成图表...
+2025-06-04 19:42:28,213 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-06-04 19:42:28,762 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-06-04 19:42:29,065 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-06-04 19:42:29,324 - etf_analysis - INFO - 生成综合评分散点图...
+2025-06-04 19:42:29,712 - etf_analysis - INFO - 图表生成完成，耗时: 1.50秒
+2025-06-04 19:42:29,713 - etf_analysis - INFO - 图表生成完成，耗时: 1.50秒
+2025-06-04 19:42:29,713 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-06-04 19:42:29,763 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-04 19:42:29,764 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-04 19:42:29,764 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-04 19:42:29,764 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-04 19:42:29,765 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-06-04 19:42:29,765 - etf_analysis - INFO - 正在生成报告...
+2025-06-04 19:42:29,775 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250604.md
+2025-06-04 19:42:29,776 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-06-04 19:42:29,776 - etf_analysis - INFO - 报告生成完成！
+2025-06-05 19:06:13,269 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-05 19:06:15,056 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-05 19:06:15,184 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-06-05 19:06:15,224 - etf_analysis - INFO - 成功加载数据，共 1183 条记录
+2025-06-05 19:06:15,224 - etf_analysis - INFO - 成功加载 1183 条ETF数据
+2025-06-05 19:06:15,224 - etf_analysis - INFO - 正在分析ETF数据...
+2025-06-05 19:06:15,247 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-06-05 19:06:15,247 - etf_analysis - INFO - 正在生成可视化图表...
+2025-06-05 19:06:15,247 - etf_analysis - INFO - 开始生成图表...
+2025-06-05 19:06:15,247 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-06-05 19:06:15,726 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-06-05 19:06:16,002 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-06-05 19:06:16,247 - etf_analysis - INFO - 生成综合评分散点图...
+2025-06-05 19:06:16,641 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-06-05 19:06:16,642 - etf_analysis - INFO - 图表生成完成，耗时: 1.39秒
+2025-06-05 19:06:16,642 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-06-05 19:06:16,687 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-05 19:06:16,687 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-05 19:06:16,687 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-05 19:06:16,688 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-05 19:06:16,688 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-06-05 19:06:16,688 - etf_analysis - INFO - 正在生成报告...
+2025-06-05 19:06:16,702 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250605.md
+2025-06-05 19:06:16,702 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-06-05 19:06:16,702 - etf_analysis - INFO - 报告生成完成！
+2025-06-06 17:57:26,392 - etf_analysis - INFO - 使用多进程超时机制
+2025-06-06 17:57:28,210 - etf_analysis - INFO - 正在加载ETF数据...
+2025-06-06 17:57:28,336 - etf_analysis - INFO - 使用编码: GB2312 加载文件: data/ETF行情数据.csv
+2025-06-06 17:57:28,388 - etf_analysis - INFO - 成功加载数据，共 1183 条记录
+2025-06-06 17:57:28,389 - etf_analysis - INFO - 成功加载 1183 条ETF数据
+2025-06-06 17:57:28,389 - etf_analysis - INFO - 正在分析ETF数据...
+2025-06-06 17:57:28,408 - etf_analysis - INFO - 数据分析完成，耗时: 0.02秒
+2025-06-06 17:57:28,409 - etf_analysis - INFO - 正在生成可视化图表...
+2025-06-06 17:57:28,409 - etf_analysis - INFO - 开始生成图表...
+2025-06-06 17:57:28,409 - etf_analysis - INFO - 生成涨跌幅分布图...
+2025-06-06 17:57:28,899 - etf_analysis - INFO - 生成类型平均涨跌幅图...
+2025-06-06 17:57:29,164 - etf_analysis - INFO - 生成成交额TOP10饼图...
+2025-06-06 17:57:29,416 - etf_analysis - INFO - 生成综合评分散点图...
+2025-06-06 17:57:29,791 - etf_analysis - INFO - 图表生成完成，耗时: 1.38秒
+2025-06-06 17:57:29,792 - etf_analysis - INFO - 图表生成完成，耗时: 1.38秒
+2025-06-06 17:57:29,792 - etf_analysis - INFO - 正在生成投资组合建议...
+2025-06-06 17:57:29,836 - etf_analysis - WARNING - 策略[growth]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-06 17:57:29,837 - etf_analysis - WARNING - 策略[value]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-06 17:57:29,837 - etf_analysis - WARNING - 策略[momentum]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-06 17:57:29,837 - etf_analysis - WARNING - 策略[balanced]的权重数量(5)多于组合数量(1)，截断多余权重
+2025-06-06 17:57:29,838 - etf_analysis - INFO - 投资组合生成完成，耗时: 0.05秒
+2025-06-06 17:57:29,838 - etf_analysis - INFO - 正在生成报告...
+2025-06-06 17:57:29,852 - etf_analysis - INFO - 已生成ETF市场日报：reports/ETF市场日报_20250606.md
+2025-06-06 17:57:29,852 - etf_analysis - INFO - 报告生成完成，耗时: 0.01秒
+2025-06-06 17:57:29,852 - etf_analysis - INFO - 报告生成完成！
